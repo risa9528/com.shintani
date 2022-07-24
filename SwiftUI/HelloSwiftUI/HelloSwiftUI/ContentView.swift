@@ -13,7 +13,7 @@ struct ContentView: View {
         VStack {
             Text(str)
                 .padding()
-                .foregroundColor(.blue)
+                .foregroundColor(.yellow)
             Button("ボタン") {
                 str = "ハローSwiftUI!"
                 print("ボタンが押されたよ")
